@@ -234,11 +234,11 @@ Thông tin **thanh toán** cho `booking`.
 
 ## 🗂️ Tóm tắt quan hệ chính
 - `screen` **1–N** `seat`
-- `movie` **N–M** `screen` qua `showtime`
+- `movie` **N–N** `screen` qua `showtime`
 - `showtime` **1–N** `booking`
 - `customer` **1–N** `booking`
 - `booking` **1–N** `booking_item`
-- `booking` **N–M** `seat` qua `booking_item`
+- `booking` **N–N** `seat` qua `booking_item`
 - `booking_item` **1–1** `ticket`
 - `booking` **1–N** `payment`
 
