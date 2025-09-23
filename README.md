@@ -79,7 +79,7 @@ Thông tin **phim**.
 
 ---
 
-## 4) `showtime`  _(bạn dùng “showtime” thay “screening”)_
+## 4) `showtime`
 Đại diện **suất chiếu cụ thể** (Movie X tại Screen Y, lúc Z).
 
 **Thuộc tính**
